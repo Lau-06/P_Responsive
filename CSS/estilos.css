@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 20px 15%;  
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: #260101;    
+    text-align: center;
+    padding: 5px;
+}
+dl, dt, dd, p, label, li {
+    color: #260101;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: initial;
+}
+nav{
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav > a{
+    color: #260101;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav > a:hover{
+    color: #1a4d61;
+    border: 1px solid #1a4d61;
+    border-radius: 10px;
+    padding: 5px;
+}
+ul{
+    color: #260101;
+    list-style-type:square;
+}
+
+
+.tipos-Sintomas{
+list-style-type: none;
+list-style-image: url(../IMAGENES/esquizofrenia.png);
+margin: 30px;
+}
+
+#cogni{
+    height: 330px;
+}
